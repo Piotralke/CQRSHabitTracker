@@ -10,4 +10,10 @@
     <ProjectReference Include="..\CQRSHabitTracker.Common\CQRSHabitTracker.Common.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Habits\Events\" />
+    <Folder Include="Users\Events\" />
+    <Folder Include="Users\ValueObjects\" />
+  </ItemGroup>
+
 </Project>
