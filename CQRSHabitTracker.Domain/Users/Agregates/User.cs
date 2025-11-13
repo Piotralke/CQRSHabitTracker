@@ -6,6 +6,7 @@ namespace CQRSHabitTracker.Domain.Users.Agregates
 	public sealed class User : Entity
 	{
 		public string Username { get; private set; }
+
 		private readonly List<Habit> _habits = new();
 		public IReadOnlyCollection<Habit> Habits => _habits.AsReadOnly();
 		private User(Guid id, string username) : base(id)
