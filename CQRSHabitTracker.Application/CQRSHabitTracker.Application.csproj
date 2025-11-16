@@ -6,4 +6,14 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\CQRSHabitTracker.Common\CQRSHabitTracker.Common.csproj" />
+    <ProjectReference Include="..\Mediator\Mediator.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Habits\" />
+    <Folder Include="Users\" />
+  </ItemGroup>
+
 </Project>
